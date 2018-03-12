@@ -6,8 +6,8 @@ import math
 import csv
 import sys
 
-path = '/home/gian/Documents/201701_Python_images_cropping/c_denti_for_paper'  # Images source directory
-newpath = '/home/gian/Documents/201701_Python_images_cropping/2nd_c_denti_data_v3/'                # Cropped images destination directory
+path = './raw_data'  # Images source directory
+newpath = './test_data/'                # Cropped images destination directory
 #pts_dst = [[50, 50], [50, 930], [1810, 50], [1810, 930]]    # references point for image warping
 tray_row = 8
 tray_col = 4
@@ -193,7 +193,7 @@ def crop(im_out, newpath):
     #im_out = im_out[0:980, 0:1860]
     #im_out = im_out[0:900, 0:1800]
     np = 1
-    if hourno in ['09']: #filtering by time
+    if hourno in ['18']: #filtering by time
         for i in range(4):
             for j in range(8):
                 cropped = im_out[i*pot_size:(i+1)*pot_size+offset, j*pot_size:(j+1)*pot_size+offset]
@@ -288,7 +288,7 @@ for (root, subdirs, files) in os.walk(path):
                         print 'tray %s was successfully proceeded' %trayno
 
 print dict_src
-with open('/home/gian/Documents/201701_Python_reddot_warping/src_pts.csv', 'wb') as csv_file:
+with open('./src_pts.csv', 'wb') as csv_file:
     writer = csv.writer(csv_file)
     for key, value in dict_src.items():
        writer.writerow([key, value])

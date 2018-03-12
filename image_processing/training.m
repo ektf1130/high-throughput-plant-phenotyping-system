@@ -4,7 +4,7 @@ clear all;
 close all; 
 clc;
 
-trainingDatasetPath = './data/';
+trainingDatasetPath = './train_data/';
 trainingResultPath = './trainingResult/';
 
 % Parameters of SLIC superpixel segmentation algorithm
