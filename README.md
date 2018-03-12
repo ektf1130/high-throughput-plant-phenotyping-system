@@ -9,9 +9,10 @@
 ## Preprocessed and segmentation image
 ![](processed_example2.bmp) ![](superpixel_example2.bmp) ![](segmentation_example2.bmp)
 
-## Preprocessed and segmentation result folder
+## Preprocessed result folder
 ![](preprocess_example.png)
 
+## Segmentation result folder
 ![](segmentation_processing_example.png)
 
 
@@ -20,8 +21,5 @@
 
 ![](visualization_example2.png)
 ![](visualization_example3.png)
-
-![](visualization_example.png)
-
 
 ## Usage
