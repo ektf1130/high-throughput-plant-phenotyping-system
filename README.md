@@ -28,8 +28,19 @@
 │   └── visualization.m
 └── README.md
 ```
-## Requirements
-
+## Developtment environment
+'''
+- Image acquisition
+	- pyserial 3.4
+- Preprocessing
+	- Python 2.7
+	- OpenCV 3.1.0 (python)
+	- Numpy 1.11.3
+	- imutils 0.4.5
+- Training, segmentation, visualization
+	- Matlab R2016b (9.1)
+	- VLFeat -- Vision Lab Features Library 0.9.20
+'''
 ## Usage
 
 
