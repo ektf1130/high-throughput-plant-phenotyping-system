@@ -28,7 +28,7 @@
 │   └── visualization.m
 └── README.md
 ```
-## Developtment environment
+## Development environment
 - Image acquisition
 	- pyserial 3.4
 - Preprocessing
