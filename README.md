@@ -7,7 +7,7 @@
 ![](gt_example1.png) ![](gt_example2.png)
 
 ## Preprocessed and segmentation image
-![](processed_example2.bmp) ![](superpixel_example2.bmp) ![](segmentation_example2.bmp)
+![](processed_example.bmp) ![](superpixel_example.bmp) ![](segmentation_example.bmp)
 
 ## Preprocessed result folder
 ![](preprocess_example.png)
