@@ -1,30 +1,32 @@
-# Introduction
+## Introduction
 - An Automated, High-throughput Plant Phenotyping System using Machine Learning-based Plant Segmentation and Image Analysis
 ## Folder structure
 ```
 ├── image_acquisition
 │   ├── db_analysis_computer_side.py
 │   ├── raspberry_side.py
-│   ├── sync.sh
+│   └── sync.sh
 ├── image_processing
 │   ├── analysisResult 
-│   │   ├── README.md
+│   │   └── README.md
 │   ├── raw_data
-│   │   ├── README.md
+│   │   └── README.md
 │   ├── test_data
-│   │   ├── README.md
+│   │   └── README.md
 │   ├── train_data
-│   │   ├── README.md
+│   │   └── README.md
 │   ├── trainingResult
 │   │   ├── training_rf.mat
 │   │   ├── training_slicParameters.mat	
-│   │   ├── training_superpixelData.mat
+│   │   └── training_superpixelData.mat
 │   ├── vlfeat
-│   ├── index.html
-│   ├── js
-│   │   ├── **/*.js
-│   └── partials/template
-├── README.md
+│   ├── draw_contours.m
+│   ├── preprocessing.py
+│   ├── subdir.m
+│   ├── test.m
+│   ├── training.m
+│   └── visualization.m
+└── README.md
 ```
 ## Requirements
 
