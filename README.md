@@ -29,7 +29,6 @@
 └── README.md
 ```
 ## Development environment
-```
 - Image acquisition
 	- pyserial 3.4
 - Preprocessing
@@ -40,7 +39,7 @@
 - Training, segmentation, visualization
 	- Matlab R2016b (9.1)
 	- VLFeat -- Vision Lab Features Library 0.9.20
-```
+
 
 ## Usage
 ### Training
