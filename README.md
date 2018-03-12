@@ -6,7 +6,7 @@
 ## Training image
 ![](gt_example1.png) ![](gt_example2.png)
 
-## Preprocessed and segmentation image
+## Preprocessed/ superpixel / segmentation image
 ![](processed_example.bmp) ![](superpixel_example.bmp) ![](segmentation_example.bmp)
 
 ## Preprocessed result folder
