@@ -1,4 +1,34 @@
 # An Automated, High-throughput Plant Phenotyping System using Machine Learning-based Plant Segmentation and Image Analysis
+## Folder structure
+```
+├── image_acquisition
+│   ├── db_analysis_computer_side.py
+│   ├── raspberry_side.py
+│   ├── sync.sh
+├── image_processing
+│   ├── analysisResult 
+│   │   ├── README.md
+│   ├── raw_data
+│   │   ├── README.md
+│   ├── test_data
+│   │   ├── README.md
+│   ├── train_data
+│   │   ├── README.md
+│   ├── trainingResult
+│   │   ├── training_rf.mat
+│   │   ├── training_slicParameters.mat	
+│   │   ├── training_superpixelData.mat
+│   ├── vlfeat
+│   ├── index.html
+│   ├── js
+│   │   ├── **/*.js
+│   └── partials/template
+├── README.md
+```
+## Requirements
+
+## Usage
+
 
 ## Raw image
 ![](raw_data_example.png)
@@ -21,23 +51,3 @@
 
 ![](visualization_example2.png)
 ![](visualization_example3.png)
-
-## Usage
-.
-+-- _config.yml
-+-- _drafts
-|   +-- begin-with-the-crazy-ideas.textile
-|   +-- on-simplicity-in-technology.markdown
-+-- _includes
-|   +-- footer.html
-|   +-- header.html
-+-- _layouts
-|   +-- default.html
-|   +-- post.html
-+-- _posts
-|   +-- 2007-10-29-why-every-programmer-should-play-nethack.textile
-|   +-- 2009-04-26-barcamp-boston-4-roundup.textile
-+-- _data
-|   +-- members.yml
-+-- _site
-+-- index.html

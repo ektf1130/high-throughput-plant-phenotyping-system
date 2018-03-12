@@ -2,8 +2,7 @@
 % [ Test Parameters ] %
 trainingResultPath = './trainingResult/';
 %testDatasetPath = uigetdir('./','Please select root folder');
-testDatasetPath = './test_data_6pm_v2/*.bmp';
-testResultPath = './testImageResult/';
+testDatasetPath = './test_data/*.bmp';
 
 % Parameters of SLIC superpixel segmentation algorithm
 % regionSize is the starting size of the superpixels

@@ -1,8 +1,8 @@
 clear;
 close all;
 
-testBWPath = './test_data_6pm_v2/*_bwImg.bmp';
-testSegmentationPath='./test_data_6pm_v2/*_segmentationImg.bmp';
+testBWPath = './test_data/*_bwImg.bmp';
+testSegmentationPath='./test_data/*_segmentationImg.bmp';
 
 analysisResultPath='./analysisResult/';
 
