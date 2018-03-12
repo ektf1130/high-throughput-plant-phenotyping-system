@@ -45,25 +45,39 @@
 ### Training
 ### Preprocessing
 ### Test
-### Visualzaion
+### Visualzation
 
-## Raw image
+## Download data
+- Ground truth data
+	- https://github.com/ektf1130/high-throughput-plant-phenotyping-system/tree/master/image_processing/train_data
+- Raw tray images
+	- https://github.com/ektf1130/high-throughput-plant-phenotyping-system/tree/master/image_processing/raw_data
+- Preprocessed images
+	- https://github.com/ektf1130/high-throughput-plant-phenotyping-system/tree/master/image_processing/test_data
+- Visualzaion results
+	- https://github.com/ektf1130/high-throughput-plant-phenotyping-system/tree/master/image_processing/analysisResult
+	
+- All-in-one (code + data + results)
+	- https://drive.google.com/open?id=1e8uaa6fzFJdGWQdoQ9FPBwbDcNNmsJlD
+
+## Figures
+### Raw image
 ![](raw_data_example.png)
 
-## Training image
+### Training image
 ![](gt_example1.png) ![](gt_example2.png)
 
-## Preprocessed / superpixel / segmentation image
+### Preprocessed / superpixel / segmentation image
 ![](processed_example.bmp) ![](superpixel_example.bmp) ![](segmentation_example.bmp)
 
-## Preprocessed result folder
+### Preprocessed result folder
 ![](preprocess_example.png)
 
-## Segmentation result folder
+### Segmentation result folder
 ![](segmentation_processing_example.png)
 
 
-## Visualization
+### Visualization
 ![](time_series_example.png)
 
 ![](visualization_example2.png)
