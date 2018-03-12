@@ -5,27 +5,27 @@
 ├── image_acquisition
 │   ├── db_analysis_computer_side.py
 │   ├── raspberry_side.py
-│   └── sync.sh 							#synchronization images between a db_analysis_computer and a raspberry pi
+│   └── sync.sh 	# data synchronization between a db_analysis_computer and a raspberry pi
 ├── image_processing
-│   ├── analysisResult 
+│   ├── analysisResult 	# result images after execution ('visualization.m')
 │   │   └── README.md
-│   ├── raw_data
+│   ├── raw_data 		# raw tray images
 │   │   └── README.md
-│   ├── test_data
+│   ├── test_data		# preprocessed images after execution('preprocessing.py')
 │   │   └── README.md
-│   ├── train_data
+│   ├── train_data 		# ground truth images for training ('training.m')
 │   │   └── README.md
 │   ├── trainingResult
-│   │   ├── training_rf.mat
+│   │   ├── training_rf.mat 	# random forest model after execution ('training.m')
 │   │   ├── training_slicParameters.mat	
 │   │   └── training_superpixelData.mat
-│   ├── vlfeat 								#libraries for generating superpixels
-│   ├── draw_contours.m 					#draw superpixel with contour lines
-│   ├── preprocessing.py 					#distortion correction, cropping, arrangement
-│   ├── subdir.m 							#file searching recursively
-│   ├── test.m 								#segmentation and data processing
-│   ├── training.m 							#generating a classification model
-│   └── visualization.m 					#visualize by segmented images
+│   ├── vlfeat 				# libraries for generating superpixels
+│   ├── draw_contours.m 	# function of draw superpixel using contours
+│   ├── preprocessing.py 	# distortion correction, cropping, arrangement
+│   ├── subdir.m 			# function of file searching recursively
+│   ├── test.m 				# segmentation and data processing
+│   ├── training.m 			# generating a classification model
+│   └── visualization.m 	# visualization using segmented images
 └── README.md
 ```
 ## Development environment
