@@ -5,7 +5,7 @@
 ├── image_acquisition
 │   ├── db_analysis_computer_side.py
 │   ├── raspberry_side.py
-│   └── sync.sh #sync images between db_analysis_computer and raspberry pi
+│   └── sync.sh 							#synchronization images between a db_analysis_computer and a raspberry pi
 ├── image_processing
 │   ├── analysisResult 
 │   │   └── README.md
@@ -19,13 +19,13 @@
 │   │   ├── training_rf.mat
 │   │   ├── training_slicParameters.mat	
 │   │   └── training_superpixelData.mat
-│   ├── vlfeat
-│   ├── draw_contours.m //draw superpixel with contour lines
-│   ├── preprocessing.py //distortion correction, cropping, arrangement
-│   ├── subdir.m //file searching recursively
-│   ├── test.m //segmentation and data processing
-│   ├── training.m 
-│   └── visualization.m //visualize by segmented images
+│   ├── vlfeat 								#libraries for generating superpixels
+│   ├── draw_contours.m 					#draw superpixel with contour lines
+│   ├── preprocessing.py 					#distortion correction, cropping, arrangement
+│   ├── subdir.m 							#file searching recursively
+│   ├── test.m 								#segmentation and data processing
+│   ├── training.m 							#generating a classification model
+│   └── visualization.m 					#visualize by segmented images
 └── README.md
 ```
 ## Development environment
