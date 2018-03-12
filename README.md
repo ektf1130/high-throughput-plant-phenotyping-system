@@ -5,7 +5,7 @@
 ├── image_acquisition
 │   ├── db_analysis_computer_side.py
 │   ├── raspberry_side.py
-│   └── sync.sh
+│   └── sync.sh #sync images betwwen db_analysis_computer and raspberry pi
 ├── image_processing
 │   ├── analysisResult 
 │   │   └── README.md
@@ -29,7 +29,6 @@
 └── README.md
 ```
 ## Developtment environment
-'''
 - Image acquisition
 	- pyserial 3.4
 - Preprocessing
@@ -40,7 +39,7 @@
 - Training, segmentation, visualization
 	- Matlab R2016b (9.1)
 	- VLFeat -- Vision Lab Features Library 0.9.20
-'''
+
 ## Usage
 
 
