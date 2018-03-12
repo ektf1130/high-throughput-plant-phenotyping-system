@@ -6,6 +6,20 @@
 ## Training image
 ![](gt_example1.png) ![](gt_example2.png)
 
+## Preprocessed and segmentation image
+![](processed_example.bmp) ![](superpixel_example.bmp) ![](segmentation_example.bmp)
+
+
+
+
+
 ## Visualization
 ![](time_series_example.png)
+
+![](visualization_example2.png)
+![](visualization_example3.png)
+
 ![](visualization_example.png)
+
+
+## Usage
