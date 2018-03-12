@@ -29,6 +29,7 @@
 └── README.md
 ```
 ## Development environment
+```
 - Image acquisition
 	- pyserial 3.4
 - Preprocessing
@@ -39,9 +40,9 @@
 - Training, segmentation, visualization
 	- Matlab R2016b (9.1)
 	- VLFeat -- Vision Lab Features Library 0.9.20
+```
 
 ## Usage
-
 ### Training
 ```
 1. Check 'trainingDatasetPath'(Default : ./train_data)
@@ -57,7 +58,7 @@
 4. Check test images directory path --> 'testDatasetPath'(Default : ./test_data/*.bmp) in 'test.m'
 5. Excecute test.m code
 6. Check binary, segmentation, result directory path --> testBWPath(Default:./test_data/*_bwImg.bmp), testSegmentationPath(Default: ./test_data/*_segmentationImg.bmp), analysisResultPath(Default:./analysisResult) in 'visualization.m'
-7. Execute 'visualizaion.m' 
+7. Execute 'visualization.m' 
 8. Check results in 'analysisResult' folder 
 ```
 
