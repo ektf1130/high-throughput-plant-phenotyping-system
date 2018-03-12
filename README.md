@@ -43,14 +43,14 @@
 ## Usage
 
 ### Training
-'''
+```
 1. Check 'trainingDatasetPath'(Default : ./train_data)
 2. Check 'trainingResultPath'(Default : ./trainingResult)
 3. Execute 'training.m' 
-'''
+```
 
 ### Preprocessing, Test, Visualzation
-'''
+```
 1. Check raw image source directory --> 'path'(Default : ./raw_data) in 'preprocessing.py'
 2. Check processed image destination directory --> 'newpath'(Default : ./test_data) in 'preprocessing.py'
 3. Execute python code
@@ -59,7 +59,7 @@
 6. Check binary, segmentation, result directory path --> testBWPath(Default:./test_data/*_bwImg.bmp), testSegmentationPath(Default: ./test_data/*_segmentationImg.bmp), analysisResultPath(Default:./analysisResult) in 'visualization.m'
 7. Execute 'visualizaion.m' 
 8. Check results in 'analysisResult' folder 
-'''
+```
 
 
 
