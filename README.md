@@ -63,18 +63,9 @@
 
 
 
-## Download data
-- Ground truth data
-	- https://github.com/ektf1130/high-throughput-plant-phenotyping-system/tree/master/image_processing/train_data
-- Raw tray images
-	- https://github.com/ektf1130/high-throughput-plant-phenotyping-system/tree/master/image_processing/raw_data
-- Preprocessed images
-	- https://github.com/ektf1130/high-throughput-plant-phenotyping-system/tree/master/image_processing/test_data
-- Visualzaion results
-	- https://github.com/ektf1130/high-throughput-plant-phenotyping-system/tree/master/image_processing/analysisResult
-	
+## Download data	
 - All-in-one (code + data + results)
-	- https://drive.google.com/open?id=1MaG_1kekDy1iptWE30M8ABN-Op3x1VfT
+	- https://drive.google.com/file/d/12qC5B3gAJy-VWki8kkWf_4gtzBcU-HIO/view?usp=sharing (updated)
 
 ## Figures
 ### Raw image
